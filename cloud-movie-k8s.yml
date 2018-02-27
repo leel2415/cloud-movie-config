@@ -5,3 +5,5 @@ spring:
     url: jdbc:mysql://${CLOUD_MOVIE_DB_SERVICE_HOST}:${CLOUD_MOVIE_DB_SERVICE_PORT}/${MYSQL_DATABASE}
     username: ${MYSQL_USER}
     password: ${MYSQL_PASSWORD}
+
+name: jungsuk-k8s

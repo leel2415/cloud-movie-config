@@ -11,3 +11,5 @@ spring:
  
 logging:
     path: ../log/${spring.application.name}
+
+name: jungsuk-default

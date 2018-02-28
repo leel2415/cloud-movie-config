@@ -1,0 +1,20 @@
+zuul:
+  ignoredServices: "*"
+  routes:
+    cloud-movie:
+      path: /movie-service/**
+      url: http://169.56.113.149:32317/
+      service-id: cloud-movie
+    google:
+      path: /google/**
+      url: https://www.google.com
+    naver:
+      path: /naver/**
+      url: https://www.naver.com
+    test:
+      path: /test/**
+      
+test:
+  ribbon:
+    listOfServers: google.com, naver.com
+

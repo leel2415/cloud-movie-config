@@ -4,3 +4,7 @@ server:
 management:
   security:
     enabled: false
+
+spring:
+  application:
+    name: cloud-movie-apigateway
